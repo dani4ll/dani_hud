@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+@font-face {
+    font-family: gf;
+    src: url(akr.otf);
+}
+body {
+}
+.choices li:last-child{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@font-face {
+    font-family: 'fontcustom';
+    src: url(fontcustom.woff);
+    font-weight: 800;
+    font-style: normal;
+} 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+	background: #ffffff;
+	box-shadow: 0px 0px 10px #000000c4, 0px 0px 20px #ffffff24 inset;
+    transition: .3s;
+}
+
+.container-up {
+	position: fixed;
+	border-radius: .5vh;
+	transform: translate(-50%, -50%);
+	top: 6%;
+	right: -10.5%;
+	width: 25vw;
+	height: 5.9vh;
+}
+
+.container-down {
+	position: fixed;
+	background: #ffffff;
+	box-shadow: 0px 0px 10px #000000c4, 0px 0px 20px #ffffff inset;
+	border-radius: .5vh;
+	transform: translate(-50%, -50%);
+	top: 24%;
+	right: -12.1%;
+	width: 28vw;
+	height: 5.9vh;
+}
+
+watermarkticket {
+	position: fixed;
+	color: white;
+	font-family: gf;
+	font-size: 1.8vh;
+	letter-spacing: .15vh;
+	top: -30%;
+	right: 40%;
+}
+
+watermarkticket span {
+	color: #9c1010;
+	text-transform: uppercase;
+}
+
+watermark {
+	position: fixed;
+	color: white;
+	font-family: gf;
+	font-size: 1.8vh;
+	letter-spacing: .15vh;
+	top: 13%;
+	right: 20%;
+}
+
+watermark span {
+	color: #bc1616;
+	text-transform: uppercase;
+}
+
+watermark discord {
+	position: fixed;
+	font-size: 1.5vh;
+	letter-spacing: 0.1vh;
+	right: 18.5%;
+	top: 45%;
+	color: #ffffff99;
+}
+
+h2 {
+	position: fixed;
+	color: #aea7a7;
+	font-family: gf;
+	font-size: 1.5vh;
+	letter-spacing: .15vh;
+	border-radius: .5vh;
+	padding: .5vh .6vh .5vh;
+	text-align: right;
+	top: 75%;
+	right: 38.8%;
+}
+
+h3 {
+	position: fixed;
+	color: #ffffff;
+	font-family: gf;
+	font-size: 2.0vh;
+	letter-spacing: .1vh;
+	right: 41%;
+	top: 40%;
+}
+
+h3 i {
+	color: #ff0000;
+	font-size: 1.4vh;
+	text-shadow: 0px 0px 10px #ff0000;
+}
+
+h3 online {
+	position: fixed;
+	top: 55%;
+	right: 75%;
+	font-size: 1.1vh;
+	color: #ffffff99;
+}
+
+.safezone {
+	position: fixed;
+	font-size: 1.5vh;
+	color: white;
+	text-shadow: 0px 0px 10px #00000038;
+	text-align: right;
+	top: 3%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: gf;
+	font-weight: bold;
+	background: #00000080;
+	padding: .5vh 1.5vh .5vh;
+	box-shadow: 0px 0px 10px #000000c4, 0px 0px 20px #ffffff24 inset;
+	border-radius: .3vh;
+}
+
+.logo {
+	position: fixed;
+	width: 11.5vw;
+	right: -8%;
+	top: -70.5%;
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 2;
+	position: fixed;
+	width: 12.5vw;
+	right: 3.1%;
+	top: 5.2%;
+}
+
+.logo2 {
+	position: fixed;
+	width: 15.5vw;
+	right: -17%;
+	top: 65%;
+}
+
+.other wallet {
+	position: fixed;
+	color: #ffffff;
+	font-size: 2.5vh;
+	text-align: right;
+	top: 20.0%;
+	right: 2%;
+	padding: .5vh 1.5vh .5vh;
+	border-radius: .3vh;
+	font-family: gf;
+	font-weight: 900;
+	letter-spacing: .15vh;
+}
+
+.other wallet span {
+	color: rgb(255, 255, 255);
+	padding-right: .7vh;
+	/* border-right: .1vh solid #bc1616; */
+	text-shadow: 0px 0px 10px #00000038;
+}
+
+.other h2 {
+	position: fixed;
+	color: #aea7a7;
+	font-size: 2.2vh;
+	background: none;
+	box-shadow: none;
+	text-align: right;
+	top: 26.4%;
+	right: 2.0%;
+	padding: .5vh 1.5vh .5vh;
+	border-radius: .3vh;
+}
+
+.dot {
+	position: fixed;
+	height: 30px;
+	width: 30px;
+	top: 5.4%;
+	right: 14%;
+	background-color: rgb(29, 29, 29);
+	border-radius: 50%;
+	display: inline-block;
+  }
+
+.other h3 {
+	position: fixed;
+	color: #ffffff;
+	font-size: 1.5vh;
+	text-shadow: 0px 0px 10px #ffffff;
+	background: none;
+	box-shadow: none;
+	text-align: right;
+	top: 17.1%;
+	right: 16%;
+	padding: .5vh 1.5vh .5vh;
+	border-radius: .3vh;
+}
+
+.other h3 span {
+	color: white;
+	padding-right: .7vh;
+	/* border-right: .1vh solid #bc1616; */
+	text-shadow: 0px 0px 10px #00000038;
+}
+
+.other h4 {
+	position: fixed;
+	color: #aea7a7;
+	font-size: 2.2vh;
+	background: none;
+	box-shadow: none;
+	text-align: right;
+	top: 30.7%;
+	font-family: gf;
+	right: 2.3%;
+	padding: .5vh 1.5vh .5vh;
+	border-radius: .3vh;
+}
+
+.other h4 span {
+	color: #aea7a7;
+	padding-right: .12vh;
+	/* border-right: .1vh solid #bc1616; */
+}
+
+payday {
+	position: fixed;
+	color: #bc1616;
+	font-size: 1.5vh;
+	text-shadow: 0px 0px 10px #bc1616;
+	text-align: right;
+	bottom: 11.7%;
+	left: 16.5%;
+	font-family: gf;
+	font-weight: bold;
+	padding: .5vh 1.5vh .5vh;
+	border-radius: .3vh;
+
+
+}
+
+payday span {
+	color: white;
+	text-shadow: 0px 0px 10px #00000038;
+
+}
+
+tickete {
+	position: fixed;
+	color: #bc1616;
+	font-size: 1.5vh;
+	text-shadow: 0px 0px 10px #bc1616;
+	text-align: right;
+	bottom: 15.4%;
+	left: 16.5%;
+	font-family: gf;
+	font-weight: bold;
+	padding: .5vh 1.5vh .5vh;
+	border-radius: .3vh;
+
+
+}
+
+tickete span {
+	color: white;
+	text-shadow: 0px 0px 10px #00000038;
+
+}
+
+job {
+	position: fixed;
+	color: #bc1616;
+	text-shadow: 0px 0px 10px #bc1616;
+	font-size: 1.5vh;
+
+	text-align: right;
+	bottom: 8%;
+	left: 16.5%;
+	font-family: gf;
+	font-weight: bold;
+	padding: .5vh 1.5vh .5vh;
+	border-radius: .3vh;
+
+}
+
+job span {
+	color: white;
+	text-shadow: 0px 0px 10px #00000038;
+	padding-left: .7vh;
+	/* border-left: .1vh solid #bc1616; */
+
+}
